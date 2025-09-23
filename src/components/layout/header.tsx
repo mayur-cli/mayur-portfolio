@@ -173,13 +173,13 @@ export const Header = () => {
                     </Link>
                   ))}
                   <Separator />
-                  <iframe
+                  {/* <iframe
                     src="https://github.com/sponsors/kinhdev24/button"
                     title="Sponsor kinhdev24"
                     height="32"
                     width="114"
                     style={{ border: "0", borderRadius: "6px" }}
-                  ></iframe>
+                  ></iframe> */}
                 </div>
               </DrawerContent>
             </Drawer>
