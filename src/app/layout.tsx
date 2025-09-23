@@ -14,14 +14,14 @@ const exo2 = Exo_2({
 })
 
 export const metadata: Metadata = {
-  title: "Kinh Bach | Frontend Developer Portfolio",
+  title: "Mayur Doifode | Frontend Developer Portfolio",
   description:
-    "Explore Kinh Bach's portfolio – a skilled Frontend Developer specializing in Next.js, React, and modern web technologies. Showcasing innovative projects, UI/UX expertise, and high-performance web applications.",
+    "Explore Mayur Doifode's portfolio – a skilled Frontend Developer specializing in Next.js, React, and modern web technologies. Showcasing innovative projects, UI/UX expertise, and high-performance web applications.",
   keywords: [
     "Frontend Developer",
     "Next.js Developer",
     "React Developer",
-    "Kinh Bach Portfolio",
+    "Mayur Doifode Portfolio",
     "Web Development",
     "UI/UX Design",
     "JavaScript",
@@ -29,25 +29,25 @@ export const metadata: Metadata = {
     "Modern Web Technologies",
   ],
   openGraph: {
-    title: "Kinh Bach | Frontend Developer Portfolio",
+    title: "Mayur Doifode | Frontend Developer Portfolio",
     description:
-      "Discover Kinh Bach's expertise in Frontend Development, React, and Next.js. View projects, case studies, and technical skills.",
-    url: "https://kinhdev.id.vn",
+      "Discover Mayur Doifode's expertise in Frontend Development, React, and Next.js. View projects, case studies, and technical skills.",
+    url: "https://mayur.live",
     type: "website",
     images: [
       {
         url: "https://voocgavdbpy2gucg.public.blob.vercel-storage.com/open-graph-6fkPvt3jl60AhDWy2pPhfp3PKoZPrZ.png",
         width: 1200,
         height: 630,
-        alt: "Kinh Bach - Frontend Developer Portfolio",
+        alt: "Mayur Doifode - Frontend Developer Portfolio",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kinh Bach | Frontend Developer Portfolio",
+    title: "Mayur Doifode | Frontend Developer Portfolio",
     description:
-      "Explore Kinh Bach's frontend projects and expertise in React, Next.js, and modern web development.",
+      "Explore Mayur Doifode's frontend projects and expertise in React, Next.js, and modern web development.",
     images: [
       "https://voocgavdbpy2gucg.public.blob.vercel-storage.com/open-graph-6fkPvt3jl60AhDWy2pPhfp3PKoZPrZ.png",
     ],

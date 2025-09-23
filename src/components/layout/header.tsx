@@ -114,16 +114,8 @@ export const Header = () => {
             ))}
           </div>
           <div className="flex items-center gap-2">
-            <iframe
-              className="hidden sm:block"
-              src="https://github.com/sponsors/kinhdev24/button"
-              title="Sponsor kinhdev24"
-              height="32"
-              width="114"
-              style={{ border: "0", borderRadius: "6px" }}
-            ></iframe>
             <a
-              href={"https://github.com/kinhdev24/kinhdev24-portfolio"}
+              href={"https://github.com/mayur-cli"}
               target="_blank"
               rel="noopener noreferrer"
               className="border p-2 rounded-2xl hover:bg-neutral-100 dark:hover:bg-neutral-900 transition-colors duration-300"
@@ -147,7 +139,7 @@ export const Header = () => {
                 <DrawerHeader className="flex justify-between">
                   <DrawerTitle className="flex items-center gap-2">
                     <Logo className="size-14" />
-                    kinhdev.id.vn
+                    mayur.live
                   </DrawerTitle>
                   <DrawerClose
                     asChild

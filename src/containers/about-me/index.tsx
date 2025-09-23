@@ -62,13 +62,13 @@ export function MyInformation() {
 
                     <div>
                       <p className="text-lg sm:text-xl relative z-20 mt-2 font-medium">
-                        Bach Duong Kinh
+                        Mayur Doifode
                       </p>
                       <p className="relative z-20 text-sm sm:text-base text-neutral-500 font-medium uppercase">
-                        Digital Fortress Co., Ltd.
+                        Oracle Financials Services
                       </p>
                       <p className="relative z-20 text-sm sm:text-base text-neutral-500 font-medium uppercase">
-                        Frontend Developer
+                        Fullstack Developer
                       </p>
                     </div>
                   </div>

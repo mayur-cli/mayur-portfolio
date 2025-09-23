@@ -17,13 +17,13 @@ export const metadata: Metadata = {
     title: "About | Kinh Dev",
     description:
       "Discover the story and journey of Kinh Dev in the world of web development.",
-    url: "https://kinhdev.id.vn/about",
+    url: "https://mayur.live/about",
     siteName: "Kinh Dev",
     type: "website",
     locale: "en_US",
     images: [
       // {
-      //   url: "https://kinhdev.id.vn/images/seo/about-og-image.png",
+      //   url: "https://mayur.live/images/seo/about-og-image.png",
       //   width: 1200,
       //   height: 630,
       //   alt: "Kinh Dev About Page",
@@ -35,10 +35,10 @@ export const metadata: Metadata = {
     title: "About | Kinh Dev",
     description:
       "Learn more about Kinh Dev - Frontend Developer and tech enthusiast.",
-    // images: ["https://kinhdev.id.vn/images/seo/about-og-image.png"],
+    // images: ["https://mayur.live/images/seo/about-og-image.png"],
   },
   alternates: {
-    canonical: "https://kinhdev.id.vn/about",
+    canonical: "https://mayur.live/about",
   },
 }
 

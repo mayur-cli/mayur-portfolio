@@ -9,11 +9,11 @@ export const metadata = {
     title: "Experience | Kinh Dev",
     description:
       "Frontend Developer with hands-on experience in React, Next.js, and modern UI/UX design.",
-    url: "https://kinhdev.id.vn/experience",
+    url: "https://mayur.live/experience",
     siteName: "Kinh Dev",
     images: [
       // {
-      //   url: "https://kinhdev.id.vn/images/seo/experience-og-image.png",
+      //   url: "https://mayur.live/images/seo/experience-og-image.png",
       //   width: 1200,
       //   height: 630,
       //   alt: "Kinh Dev Experience Page",
@@ -25,10 +25,10 @@ export const metadata = {
     title: "Experience | Kinh Dev",
     description:
       "Check out Kinh Dev's past work and achievements in frontend development.",
-    //   images: ["https://kinhdev.id.vn/images/seo/experience-og-image.png"],
+    //   images: ["https://mayur.live/images/seo/experience-og-image.png"],
   },
   alternates: {
-    canonical: "https://kinhdev.id.vn/experience",
+    canonical: "https://mayur.live/experience",
   },
 }
 

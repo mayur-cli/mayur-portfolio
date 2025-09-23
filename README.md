@@ -8,7 +8,7 @@ A modern, responsive developer portfolio showcasing skills, projects, and profes
 
 ## 🚀 Live Demo
 
-[View Live Portfolio](https://kinhdev.id.vn)
+[View Live Portfolio](https://mayur.live)
 
 ## ✨ Features
 
@@ -275,7 +275,7 @@ If you find a bug, please create an issue with:
 - GitHub: [@kinhdev24](https://github.com/kinhdev24)
 - LinkedIn: [@kinhdev24](https://www.linkedin.com/in/kinhdev24)
 - Email: [kinhdev24@gmail.com](mailto:kinhdev24@gmail.com)
-- Website: [kinhdev.id.vn](https://kinhdev.id.vn)
+- Website: [mayur.live](https://mayur.live)
 
 ## 🙏 Acknowledgments
 

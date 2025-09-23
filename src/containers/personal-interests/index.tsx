@@ -52,7 +52,7 @@ const SkeletonOne = () => {
       <EvervaultCard
         text={
           <a
-            href="/files/kinhbach_resume.pdf"
+            href="/files/mayur_resume.pdf"
             download
             className="flex flex-col items-center justify-center"
           >
@@ -222,11 +222,10 @@ const items = [
     icon: <Blocks className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Music & Mood",
+    title: "Bad With Names",
     description: (
       <span className="text-sm">
-        From deep focus to feel-good vibes, I create playlists that fuel my day
-        — &ldquo;Working Energy&ldquo; is one of my favorites.
+        Stumbled upon this playlist while exploring Spotify. I put it on only when I need max focus.
       </span>
     ),
     header: <SkeletonThree />,
