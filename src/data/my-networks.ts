@@ -30,6 +30,6 @@ export const MY_NETWORKS = [
   // {
   //   name: "Instagram",
   //   icon: IconBrandInstagram,
-  //   href: "https://www.instagram.com/kinhdev24/",
+  //   href: "https://www.instagram.com/mayur.codes/",
   // },
 ]

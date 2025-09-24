@@ -2,29 +2,29 @@ import { FullScreen } from "@/components/full-screen"
 import { ExperienceTimeline } from "./containers/experience-timeline"
 
 export const metadata = {
-  title: "Experience | Kinh Dev",
+  title: "Experience | Mayur Doifode",
   description:
-    "Explore the professional journey of Kinh Dev - frontend developer with experience in modern JavaScript frameworks.",
+    "Explore the professional journey of Mayur Doifode - fullstack developer with experience in modern JavaScript frameworks.",
   openGraph: {
-    title: "Experience | Kinh Dev",
+    title: "Experience | Mayur Doifode",
     description:
-      "Frontend Developer with hands-on experience in React, Next.js, and modern UI/UX design.",
+      "Fullstack Developer with hands-on experience in React, Next.js, and modern UI/UX design.",
     url: "https://mayur.live/experience",
-    siteName: "Kinh Dev",
+    siteName: "Mayur Doifode",
     images: [
       // {
       //   url: "https://mayur.live/images/seo/experience-og-image.png",
       //   width: 1200,
       //   height: 630,
-      //   alt: "Kinh Dev Experience Page",
+      //   alt: "Mayur Doifode Experience Page",
       // },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Experience | Kinh Dev",
+    title: "Experience | Mayur Doifode",
     description:
-      "Check out Kinh Dev's past work and achievements in frontend development.",
+      "Check out Mayur Doifode's past work and achievements in frontend development.",
     //   images: ["https://mayur.live/images/seo/experience-og-image.png"],
   },
   alternates: {

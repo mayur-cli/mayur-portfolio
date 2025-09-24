@@ -2,11 +2,11 @@ import { Metadata } from "next"
 import { ComingSoonPage } from "@/components/layout/coming-soon"
 
 export const metadata: Metadata = {
-  title: "About | Kinh Dev",
+  title: "About | Mayur Doifode",
   description:
-    "Learn more about Kinh Dev - Frontend Developer, JavaScript enthusiast, and tech explorer.",
+    "Learn more about Mayur Doifode - Frontend Developer, JavaScript enthusiast, and tech explorer.",
   keywords: [
-    "Kinh Dev",
+    "Mayur Doifode",
     "About Kinh",
     "Frontend Developer",
     "JavaScript",
@@ -14,11 +14,11 @@ export const metadata: Metadata = {
     "Vietnam Developer",
   ],
   openGraph: {
-    title: "About | Kinh Dev",
+    title: "About | Mayur Doifode",
     description:
-      "Discover the story and journey of Kinh Dev in the world of web development.",
+      "Discover the story and journey of Mayur Doifode in the world of web development.",
     url: "https://mayur.live/about",
-    siteName: "Kinh Dev",
+    siteName: "Mayur Doifode",
     type: "website",
     locale: "en_US",
     images: [
@@ -26,15 +26,15 @@ export const metadata: Metadata = {
       //   url: "https://mayur.live/images/seo/about-og-image.png",
       //   width: 1200,
       //   height: 630,
-      //   alt: "Kinh Dev About Page",
+      //   alt: "Mayur Doifode About Page",
       // },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "About | Kinh Dev",
+    title: "About | Mayur Doifode",
     description:
-      "Learn more about Kinh Dev - Frontend Developer and tech enthusiast.",
+      "Learn more about Mayur Doifode - Frontend Developer and tech enthusiast.",
     // images: ["https://mayur.live/images/seo/about-og-image.png"],
   },
   alternates: {

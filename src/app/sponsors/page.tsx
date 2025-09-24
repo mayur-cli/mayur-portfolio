@@ -3,8 +3,8 @@ import { HoverBorderGradient } from "@/components/ui/hover-border-gradient"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Sponsors | Kinh Dev",
-  description: "Sponsors of Kinh Dev",
+  title: "Sponsors | Mayur Doifode",
+  description: "Sponsors of Mayur Doifode",
 }
 
 export default function Page() {
@@ -16,8 +16,8 @@ export default function Page() {
         className="dark:bg-[#0d1117] bg-white text-black dark:text-white flex items-center space-x-2 cursor-pointer w-full"
       >
         {/* <iframe
-          src="https://github.com/sponsors/kinhdev24/card"
-          title="Sponsor kinhdev24"
+          src="https://github.com/sponsors/mayur-cli/card"
+          title="Sponsor mayur-cli"
           className="w-full h-full"
           style={{ border: "0" }}
         ></iframe> */}

@@ -6,6 +6,10 @@ import {
   IconBrandGithub,
   IconMenu2,
   IconX,
+  IconHome,
+  IconBriefcase,
+  IconFolder,
+  IconUser,
 } from "@tabler/icons-react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
@@ -22,6 +26,7 @@ import {
   DrawerTrigger,
 } from "../ui/drawer"
 import { Separator } from "@radix-ui/react-dropdown-menu"
+import { FloatingDock } from "../ui/floating-dock"
 
 const links = [
   {
@@ -48,6 +53,37 @@ const links = [
 ]
 
 const pathNameDisableHeaderScroll = [""]
+
+const floatingDockLinks = [
+  {
+    title: "All",
+    icon: (
+      <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+    ),
+    href: "/",
+  },
+  {
+    title: "Experience",
+    icon: (
+      <IconBriefcase className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+    ),
+    href: "/experience",
+  },
+  {
+    title: "Projects",
+    icon: (
+      <IconFolder className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+    ),
+    href: "/projects",
+  },
+  {
+    title: "About",
+    icon: (
+      <IconUser className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+    ),
+    href: "/about",
+  },
+]
 
 export const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -97,22 +133,25 @@ export const Header = () => {
           className={cn(
             "mx-auto flex justify-between gap-10 items-center transition-all duration-300 p-4 z-50 ",
             isScrolled
-              ? "bg-white/80 backdrop-blur-md md:p-6 dark:bg-zinc-900/80 xl:w-[90%] shadow -translate-y-8 md:rounded-3xl"
-              : "bg-transparent w-full xl:w-[70%]"
+              ? "bg-transparent md:p-6 xl:w-[99%] shadow -translate-y-8 md:rounded-3xl"
+              : "bg-transparent w-full xl:w-[80%]"
           )}
         >
           <div className="flex items-center gap-2">
             <Logo className="size-14" />
           </div>
-          <div className="flex-1 items-center gap-3 justify-center hidden sm:flex">
-            {links.map((link) => (
-              <HeaderLink
-                key={link.title}
-                title={link.title}
-                href={link.href}
-              />
-            ))}
-          </div>
+          {/* Show navigation in header only when not scrolled */}
+          {!isScrolled && (
+            <div className="flex-1 items-center gap-3 justify-center hidden sm:flex">
+              {links.map((link) => (
+                <HeaderLink
+                  key={link.title}
+                  title={link.title}
+                  href={link.href}
+                />
+              ))}
+            </div>
+          )}
           <div className="flex items-center gap-2">
             <a
               href={"https://github.com/mayur-cli"}
@@ -174,8 +213,8 @@ export const Header = () => {
                   ))}
                   <Separator />
                   {/* <iframe
-                    src="https://github.com/sponsors/kinhdev24/button"
-                    title="Sponsor kinhdev24"
+                    src="https://github.com/sponsors/mayur-cli/button"
+                    title="Sponsor mayur-cli"
                     height="32"
                     width="114"
                     style={{ border: "0", borderRadius: "6px" }}
@@ -188,6 +227,14 @@ export const Header = () => {
       </header>
 
       {isDisableHeaderScroll && <ScrollToTopButton />}
+      
+      {/* Floating Dock Navigation - only show when scrolled */}
+      {isScrolled && (
+      <div className="fixed bottom-8 left-1/2 transform -translate-x-1/2 z-50">
+        <FloatingDock items={floatingDockLinks} />
+      </div>
+      )}
+      
     </>
   )
 }

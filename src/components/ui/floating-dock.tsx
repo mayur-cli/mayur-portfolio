@@ -50,7 +50,7 @@ const FloatingDockMobile = ({
         {open && (
           <motion.div
             layoutId="nav"
-            className="absolute bottom-full mb-2 inset-x-0 flex flex-col gap-2"
+            className="absolute bottom-full mb-3 inset-x-0 flex flex-col gap-3"
           >
             {items.map((item, idx) => (
               <motion.div
@@ -72,9 +72,9 @@ const FloatingDockMobile = ({
                 <Link
                   href={item.href}
                   key={item.title}
-                  className="h-10 w-10 rounded-full bg-gray-50 dark:bg-neutral-900 flex items-center justify-center"
+                  className="h-12 w-12 rounded-full bg-white/70 dark:bg-neutral-900/70 backdrop-blur-md flex items-center justify-center shadow-lg border border-white/20 dark:border-neutral-800/50"
                 >
-                  <div className="h-4 w-4">{item.icon}</div>
+                  <div className="h-6 w-6">{item.icon}</div>
                 </Link>
               </motion.div>
             ))}
@@ -83,9 +83,9 @@ const FloatingDockMobile = ({
       </AnimatePresence>
       <button
         onClick={() => setOpen(!open)}
-        className="h-10 w-10 rounded-full bg-gray-50 dark:bg-neutral-800 flex items-center justify-center"
+        className="h-12 w-12 rounded-full bg-white/70 dark:bg-neutral-800/70 backdrop-blur-md flex items-center justify-center shadow-lg border border-white/20 dark:border-neutral-800/50"
       >
-        <IconLayoutNavbarCollapse className="h-5 w-5 text-neutral-500 dark:text-neutral-400" />
+        <IconLayoutNavbarCollapse className="h-6 w-6 text-neutral-500 dark:text-neutral-400" />
       </button>
     </div>
   )
@@ -104,7 +104,7 @@ const FloatingDockDesktop = ({
       onMouseMove={(e) => mouseX.set(e.pageX)}
       onMouseLeave={() => mouseX.set(Infinity)}
       className={cn(
-        "mx-auto hidden md:flex h-16 gap-4 items-end  rounded-2xl bg-gray-50 dark:bg-neutral-900 px-4 pb-3",
+        "mx-auto hidden md:flex h-20 gap-6 items-end rounded-2xl bg-white/70 dark:bg-neutral-900/70 backdrop-blur-md px-6 pb-4 shadow-lg border border-white/20 dark:border-neutral-800/50",
         className
       )}
     >
@@ -134,18 +134,18 @@ function IconContainer({
     return val - bounds.x - bounds.width / 2
   })
 
-  const widthTransform = useTransform(distance, [-150, 0, 150], [40, 80, 40])
-  const heightTransform = useTransform(distance, [-150, 0, 150], [40, 80, 40])
+  const widthTransform = useTransform(distance, [-150, 0, 150], [50, 100, 50])
+  const heightTransform = useTransform(distance, [-150, 0, 150], [50, 100, 50])
 
   const widthTransformIcon = useTransform(
     distance,
     [-150, 0, 150],
-    [20, 40, 20]
+    [25, 50, 25]
   )
   const heightTransformIcon = useTransform(
     distance,
     [-150, 0, 150],
-    [20, 40, 20]
+    [25, 50, 25]
   )
 
   const width = useSpring(widthTransform, {

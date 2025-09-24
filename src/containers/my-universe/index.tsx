@@ -62,11 +62,11 @@ export const MyUniverse = () => {
 
         {/* Responsive positioning for floating elements */}
         <div className="px-3 py-2 hidden sm:block absolute top-8 left-16 sm:left-32 bg-purple-500/20 rounded-[6px] w-max font-medium dark:text-purple-300 text-purple-500 border border-purple-500/20 animate-wiggle duration-1000">
-          UI Magic
+          Clean Code
         </div>
 
         <div className="px-3 py-2 hidden sm:block absolute top-24 right-4 sm:right-10 bg-blue-500/20 rounded-[6px] w-max font-medium dark:text-blue-300 text-blue-500 border border-blue-500/20 animate-wiggle duration-1000">
-          Clean Code
+          Microservices
         </div>
 
         {/* <div className="px-3 py-2 hidden sm:block absolute bottom-36 right-2 sm:right-20 bg-yellow-500/20 rounded-[6px] w-max font-medium dark:text-yellow-300 text-yellow-500 border border-yellow-500/20 animate-wiggle duration-1000">
@@ -99,7 +99,7 @@ export const MyUniverse = () => {
           React Enthusiast ⚛️ | Spring Boot Explorer 🚀
           <br />{" "}
           <span className="font-normal italic">
-            Leading scalable UI development & shaping modern web experiences
+            Leading scalable software development & shaping modern web experiences
             with clean, efficient code 💻✨
           </span>
         </div>

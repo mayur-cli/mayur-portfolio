@@ -4,7 +4,6 @@ A modern, responsive developer portfolio showcasing skills, projects, and profes
 
 ![Portfolio Preview](https://media.daily.dev/image/upload/s--aWLslYU3--/f_auto/v1744482505/ugc/content_50c23b68-02a5-43d8-bb3e-e0b3b2f269d0)
 
-[![Sponsor kinhdev24](https://img.shields.io/badge/Sponsor-kinhdev24-ff69b4)](https://github.com/sponsors/kinhdev24)
 
 ## 🚀 Live Demo
 
@@ -47,8 +46,8 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/kinhdev24/kinhdev24-portfolio.git
-cd kinhdev24-portfolio
+git clone https://github.com/mayur-cli/mayur-cli-portfolio.git
+cd mayur-cli-portfolio
 ```
 
 ### 2. Install Dependencies
@@ -99,14 +98,13 @@ This portfolio features an embedded Spotify playlist that adapts to the current 
    - Open your Spotify playlist in the web player
    - Copy the playlist URL (e.g., `https://open.spotify.com/playlist/677KIyayzcVJeA77I9hEi0`)
    - Extract the playlist ID from the URL (the part after `/playlist/`)
-
 2. **Configure Environment Variable**:
 
    ```env
    NEXT_PUBLIC_SPOTIFY_PLAYLIST_ID=your_playlist_id_here
    ```
-
 3. **Implementation Example**:
+
    ```jsx
    // Theme-aware Spotify embed
    <iframe
@@ -185,7 +183,7 @@ src/
 ## 📁 Project Structure
 
 ```
-kinhdev24-portfolio/
+mayur-cli-portfolio/
 ├── public/             # Static assets
 │   ├── images/         # Images and media
 │   ├── icons/          # Favicon and icons
@@ -270,11 +268,11 @@ If you find a bug, please create an issue with:
 
 ## 👨‍💻 Author
 
-**[Bach Duong Kinh]**
+**[Mayur Doifode]**
 
-- GitHub: [@kinhdev24](https://github.com/kinhdev24)
-- LinkedIn: [@kinhdev24](https://www.linkedin.com/in/kinhdev24)
-- Email: [kinhdev24@gmail.com](mailto:kinhdev24@gmail.com)
+- GitHub: [@mayur-cli](https://github.com/mayur-cli)
+- LinkedIn: [@mayurdoifode](https://www.linkedin.com/in/mayur-doifode)
+- Email: [mayurdoifode@gmail.com](mailto:mayurdoifode@gmail.com)
 - Website: [mayur.live](https://mayur.live)
 
 ## 🙏 Acknowledgments
@@ -345,4 +343,4 @@ pnpm install
 
 ⭐ If you found this project useful, please consider giving it a star on GitHub!
 
-Made with ❤️ by kinhdev24
+Made with ❤️ by mayur-cli
