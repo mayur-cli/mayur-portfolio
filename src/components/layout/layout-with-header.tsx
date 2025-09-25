@@ -8,7 +8,7 @@ export const LayoutWithHeader = ({
   children: React.ReactNode
 }) => {
   return (
-    <div className="font-[family-name:var(--font-exo2)] font-medium w-screen">
+    <div className="font-[family-name:var(--font-exo2)] font-medium w-full max-w-[100vw] overflow-x-hidden">
       <HeroBackground>
         <Header />
 

@@ -32,7 +32,7 @@ export const metadata = {
 export default function Page() {
   
   return (
-    <div className="w-full xl:w-[85%] mx-auto">
+    <div className="w-full max-w-[100vw] xl:w-[85%] mx-auto overflow-x-hidden">
       <ProjectCardsCarousel />
     </div>
   )

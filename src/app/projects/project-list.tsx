@@ -8,7 +8,7 @@ export function ProjectCardsCarousel() {
   ))
 
   return (
-    <div className="my-10">
+    <div className="my-10 w-full max-w-[100vw] overflow-x-hidden">
       <Carousel items={cards} />
     </div>
   )

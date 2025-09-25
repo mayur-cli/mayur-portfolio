@@ -93,7 +93,7 @@ export const Carousel = ({ items, initialScroll = 0 }: CarouselProps) => {
     <CarouselContext.Provider
       value={{ onCardClose: handleCardClose, currentIndex }}
     >
-      <div className="relative w-full">
+      <div className="relative w-full max-w-[100vw] overflow-x-hidden">
         <div className="flex justify-end gap-2">
           <button
             className="relative z-40 md:size-10 size-6 rounded-full bg-gray-100 flex items-center justify-center disabled:opacity-50"
@@ -111,7 +111,7 @@ export const Carousel = ({ items, initialScroll = 0 }: CarouselProps) => {
           </button>
         </div>
         <div
-          className="flex w-full overflow-x-scroll overscroll-x-hidden py-14 scroll-smooth [scrollbar-width:none]"
+          className="flex w-full max-w-[100vw] overflow-x-scroll overscroll-x-hidden py-14 scroll-smooth [scrollbar-width:none]"
           ref={carouselRef}
           onScroll={checkScrollability}
         >
@@ -123,7 +123,7 @@ export const Carousel = ({ items, initialScroll = 0 }: CarouselProps) => {
 
           <div
             className={cn(
-              "flex flex-row justify-start gap-4 pl-4",
+              "flex flex-row justify-start gap-4 pl-4 min-w-0",
               "mx-auto" // remove max-w-4xl if you want the carousel to span the full width of its container
             )}
           >
@@ -144,7 +144,7 @@ export const Carousel = ({ items, initialScroll = 0 }: CarouselProps) => {
                   },
                 }}
                 key={"card" + index}
-                className="last:pr-[5%] md:last:pr-[5%]  rounded-3xl"
+                className="last:pr-[5%] md:last:pr-[5%] rounded-3xl flex-shrink-0"
               >
                 {item}
               </motion.div>
@@ -244,7 +244,7 @@ export const Card = ({
       <motion.button
         layoutId={layout ? `card-${card.title}` : undefined}
         onClick={handleOpen}
-        className="rounded-3xl bg-gray-100 dark:bg-neutral-900 h-80 w-80 md:h-[33rem] md:w-[26rem] overflow-hidden flex flex-col items-start justify-start relative z-10"
+        className="rounded-3xl bg-gray-100 dark:bg-neutral-900 h-80 w-80 md:h-[33rem] md:w-[26rem] max-w-[80vw] sm:max-w-none overflow-hidden flex flex-col items-start justify-start relative z-10 flex-shrink-0"
         whileHover={{
           transform: "translateY(-10px)",
         }}

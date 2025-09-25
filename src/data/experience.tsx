@@ -10,7 +10,7 @@ export const EXPERIENCE_TIMELINE = [
           Focused on building frontend features for IoT and environmental
           monitoring projects, driving operational efficiency for clients.
         </p>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-2 gap-2 md:gap-4 overflow-hidden">
           <BlurImage
             src="/images/ilotusland/ilotusland_1.tiff"
             alt="startup template"
@@ -52,7 +52,7 @@ export const EXPERIENCE_TIMELINE = [
           development and implementation of micro-frontend projects, creating a
           scalable and flexible platform for client needs.
         </p>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-2 gap-2 md:gap-4 overflow-hidden">
           <BlurImage
             src="/images/ilotusland/ilotusland_section2_1.JPG"
             alt="startup template"
@@ -164,7 +164,7 @@ export const EXPERIENCE_TIMELINE = [
             the team
           </div>
         </div>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-2 gap-2 md:gap-4 overflow-hidden">
           <BlurImage
             src="/images/digitalfortress/section_2_1.jpeg"
             alt="startup template"

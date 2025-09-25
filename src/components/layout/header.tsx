@@ -131,10 +131,10 @@ export const Header = () => {
       >
         <div
           className={cn(
-            "mx-auto flex justify-between gap-10 items-center transition-all duration-300 p-4 z-50 ",
+            "mx-auto flex justify-between items-center transition-all duration-300 p-4 z-50 max-w-full",
             isScrolled
-              ? "bg-transparent md:p-6 xl:w-[99%] shadow -translate-y-8 md:rounded-3xl"
-              : "bg-transparent w-full xl:w-[80%]"
+              ? "bg-transparent md:p-6 w-[95%] xl:w-[90%] shadow -translate-y-8 md:rounded-3xl gap-4 md:gap-6"
+              : "bg-transparent w-full xl:w-[80%] gap-4 md:gap-10"
           )}
         >
           <div className="flex items-center gap-2">
@@ -152,7 +152,7 @@ export const Header = () => {
               ))}
             </div>
           )}
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 flex-shrink-0">
             <a
               href={"https://github.com/mayur-cli"}
               target="_blank"
