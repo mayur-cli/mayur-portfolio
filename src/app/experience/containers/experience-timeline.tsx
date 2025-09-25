@@ -4,7 +4,7 @@ import { EXPERIENCE_TIMELINE } from "@/data/experience"
 
 export function ExperienceTimeline() {
   return (
-    <div className="w-full h-full">
+    <div className="w-full h-full overflow-x-hidden">
       <Timeline data={EXPERIENCE_TIMELINE} />
     </div>
   )

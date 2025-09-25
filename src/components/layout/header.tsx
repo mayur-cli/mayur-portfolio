@@ -131,9 +131,9 @@ export const Header = () => {
       >
         <div
           className={cn(
-            "mx-auto flex justify-between items-center transition-all duration-300 p-4 z-50 max-w-full",
+            "mx-auto flex justify-between items-center transition-all duration-300 p-4 z-50 max-w-full overflow-x-hidden",
             isScrolled
-              ? "bg-transparent md:p-6 w-[95%] xl:w-[90%] shadow -translate-y-8 md:rounded-3xl gap-4 md:gap-6"
+              ? "bg-transparent md:p-6 w-[95%] xl:w-[100%] shadow -translate-y-8 md:rounded-3xl gap-4 md:gap-6"
               : "bg-transparent w-full xl:w-[80%] gap-4 md:gap-10"
           )}
         >
