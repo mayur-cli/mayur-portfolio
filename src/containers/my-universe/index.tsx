@@ -113,13 +113,13 @@ export const MyUniverse = () => {
 
 export function CompareDemo() {
   return (
-    <div className="w-full border rounded-3xl dark:bg-neutral-900 bg-neutral-100 border-neutral-200 dark:border-neutral-800">
+    <div className="w-full border rounded-3xl dark:bg-neutral-900 bg-neutral-100 border-neutral-200 dark:border-neutral-800 p-4">
       <Compare
         firstImage="/images/home1.svg"
         secondImage="/images/home2.svg"
-        firstImageClassName="object-cover object-left-top"
-        secondImageClassname="object-cover object-left-top"
-        className="h-[200px] sm:h-[250px] md:h-[400px] lg:h-[500px] w-full"
+        firstImageClassName="object-contain object-center scale-109"
+        secondImageClassname="object-contain object-center scale-119"
+        className="h-[200px] sm:h-[250px] md:h-[400px] lg:h-[500px] w-full rounded-2xl overflow-hidden"
         slideMode="hover"
       />
     </div>
