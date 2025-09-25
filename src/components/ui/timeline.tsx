@@ -29,10 +29,11 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
     // Set up resize observer to handle window resizing
     const resizeObserver = new ResizeObserver(updateHeight)
-    resizeObserver.observe(ref.current)
+    const currentRef = ref.current
+    resizeObserver.observe(currentRef)
 
     return () => {
-      if (ref.current) resizeObserver.unobserve(ref.current)
+      if (currentRef) resizeObserver.unobserve(currentRef)
     }
   }, [])
 
@@ -52,7 +53,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
           My Journey as a Fullstack Developer
         </h2>
         <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-3xl italic">
-          I'm currently working at Oracle as a backend developer specializing in microservices architecture, while continuously expanding my skills as a full stack developer.<br/>Though my professional journey began in 2022, my passion for web development started back in 2014 when I deployed my first website, and I've been building and learning ever since.
+          I&apos;m currently working at Oracle as a backend developer specializing in microservices architecture, while continuously expanding my skills as a full stack developer.<br/>Though my professional journey began in 2022, my passion for web development started back in 2014 when I deployed my first website, and I&apos;ve been building and learning ever since.
         </p>
       </div>
 

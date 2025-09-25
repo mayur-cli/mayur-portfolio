@@ -7,6 +7,7 @@ import React, {
   createContext,
   useContext,
   JSX,
+  useCallback,
 } from "react"
 import {
   IconArrowNarrowLeft,
@@ -140,7 +141,6 @@ export const Carousel = ({ items, initialScroll = 0 }: CarouselProps) => {
                     duration: 0.5,
                     delay: 0.2 * index,
                     ease: "easeOut",
-                    once: true,
                   },
                 }}
                 key={"card" + index}
@@ -171,6 +171,11 @@ export const Card = ({
   const containerRef = useRef<HTMLDivElement>(null)
   const { onCardClose } = useContext(CarouselContext)
 
+  const handleClose = useCallback(() => {
+    setOpen(false)
+    onCardClose(index)
+  }, [setOpen, onCardClose, index])
+
   useEffect(() => {
     function onKeyDown(event: KeyboardEvent) {
       if (event.key === "Escape") {
@@ -186,17 +191,12 @@ export const Card = ({
 
     window.addEventListener("keydown", onKeyDown)
     return () => window.removeEventListener("keydown", onKeyDown)
-  }, [open])
+  }, [open, handleClose])
 
-  useOutsideClick(containerRef as any, () => handleClose())
+  useOutsideClick(containerRef as any, handleClose)
 
   const handleOpen = () => {
     // setOpen(true)
-  }
-
-  const handleClose = () => {
-    setOpen(false)
-    onCardClose(index)
   }
 
   return (

@@ -1,12 +1,10 @@
-import { BlurImage } from "@/components/ui/apple-cards-carousel"
-
 export const EXPERIENCE_TIMELINE = [
   {
     title: "Oracle Financial Services (2024-Present)",
     content: (
       <div className="overflow-x-hidden">
         <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-normal mb-8">
-          As a Staff Consultant (SDE-2) at Oracle Financial Services Software, I've led several high-impact initiatives that transformed developer productivity and application performance. My most significant contributions include developing cutting-edge AI-powered tools and optimizing enterprise-grade financial applications used by major global banks.
+          As a Staff Consultant (SDE-2) at Oracle Financial Services Software, I&apos;ve led several high-impact initiatives that transformed developer productivity and application performance. My most significant contributions include developing cutting-edge AI-powered tools and optimizing enterprise-grade financial applications used by major global banks.
         </p>
         <div className="mb-8">
           <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-3">
