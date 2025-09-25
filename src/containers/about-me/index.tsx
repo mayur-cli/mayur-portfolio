@@ -248,7 +248,7 @@ const KeySkills = () => {
     visible: {
       opacity: 1,
       y: 0,
-      transition: { type: "spring", stiffness: 300, damping: 20 },
+      transition: { type: "spring" as const, stiffness: 300, damping: 20 },
     },
   }
 
@@ -315,7 +315,7 @@ const KeySkills = () => {
             y: -5,
           }}
           whileTap={{ scale: 0.95 }}
-          transition={{ type: "spring", stiffness: 400, damping: 17 }}
+          transition={{ type: "spring" as const, stiffness: 400, damping: 17 }}
         >
           <Badge
             variant="secondary"
