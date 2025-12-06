@@ -5,7 +5,7 @@ import { TECH_STACK } from "@/data/tech-stack"
 
 export function StackCloud() {
   const images = TECH_STACK.map(
-    (slug) => `https://cdn.simpleicons.org/${slug}/${slug}`
+    (slug) => `https://cdn.simpleicons.org/${slug}`
   )
 
   return (
