@@ -1,8 +1,7 @@
 "use client"
 
-import React from "react"
 import Image from "next/image"
-import { useTheme } from "next-themes"
+import { cn } from "@/lib/utils"
 
 interface LogoProps {
   className?: string
@@ -11,25 +10,28 @@ interface LogoProps {
 }
 
 export const Logo = ({ className, width = 500, height = 500, ...props }: LogoProps) => {
-  const { resolvedTheme } = useTheme()
-  
-  // Use resolvedTheme to get the actual theme (handles 'system' preference)
-  // Default to 'dark' during SSR to match your default theme
-  const currentTheme = resolvedTheme || 'dark'
-  
-  // Choose logo based on current theme
-  const logoSrc = currentTheme === 'dark' ? '/logo-white.svg' : '/logo-black.svg'
-  
   return (
-    <Image
-      src={logoSrc}
-      alt="Mayur Doifode Logo"
-      width={width}
-      height={height}
-      className={className}
-      loading="eager"
-      decoding="async"
-      {...props}
-    />
+    <>
+      <Image
+        src="/logo-black.svg"
+        alt="Mayur Doifode Logo"
+        width={width}
+        height={height}
+        className={cn("block dark:hidden", className)}
+        loading="eager"
+        decoding="async"
+        {...props}
+      />
+      <Image
+        src="/logo-white.svg"
+        alt="Mayur Doifode Logo"
+        width={width}
+        height={height}
+        className={cn("hidden dark:block", className)}
+        loading="eager"
+        decoding="async"
+        {...props}
+      />
+    </>
   )
 }
