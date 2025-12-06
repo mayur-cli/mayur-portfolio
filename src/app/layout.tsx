@@ -66,6 +66,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="preload" href="/logo-black.svg" as="image" />
+        <link rel="preload" href="/logo-white.svg" as="image" />
+      </head>
       <body
         className={`${exo2.variable} antialiased scroll-smooth w-full max-w-dvw overflow-x-hidden`}
       >
