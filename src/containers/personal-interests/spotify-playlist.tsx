@@ -70,6 +70,7 @@ export const SpotifyPlaylist = () => {
           }}
         >
           <iframe
+            title="Spotify playlist"
             style={{ borderRadius: "12px" }}
             src={`https://open.spotify.com/embed/playlist/${
               process.env.NEXT_PUBLIC_SPOTIFY_PLAYLIST_ID
@@ -78,11 +79,9 @@ export const SpotifyPlaylist = () => {
             }`}
             width="100%"
             height="500px"
-            allowFullScreen
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
             loading="lazy"
             onLoad={handleIframeLoad}
-            onLoadStart={() => console.log("1")}
           ></iframe>
         </motion.div>
       </AnimatePresence>
