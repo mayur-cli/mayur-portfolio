@@ -27,7 +27,8 @@ export const Logo = ({ className, width = 500, height = 500, ...props }: LogoPro
       width={width}
       height={height}
       className={className}
-      priority
+      loading="eager"
+      decoding="async"
       {...props}
     />
   )
