@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://voocgavdbpy2gucg.public.blob.vercel-storage.com/open-graph-6fkPvt3jl60AhDWy2pPhfp3PKoZPrZ.png",
+        url: "https://mayur-potfolio-git-main-mayurs-projects-4c015dfd.vercel.app/_next/image?url=%2Fimages%2Favt-card.png",
         width: 1200,
         height: 630,
         alt: "Mayur Doifode - Fullstack Developer Portfolio",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     description:
       "Explore Mayur Doifode's fullstack projects and expertise in React, Next.js, and modern web development.",
     images: [
-      "https://voocgavdbpy2gucg.public.blob.vercel-storage.com/open-graph-6fkPvt3jl60AhDWy2pPhfp3PKoZPrZ.png",
+      "https://mayur-potfolio-git-main-mayurs-projects-4c015dfd.vercel.app/_next/image?url=%2Fimages%2Favt-card.png",
     ],
   },
   icons: {

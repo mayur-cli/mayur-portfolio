@@ -11,7 +11,7 @@ export const LayoutWithHeader = ({
     <div className="font-[family-name:var(--font-exo2)] font-medium w-full max-w-[100vw]">
       <HeroBackground>
         <Header />
-
+        <div className="md:h-[14px]" />
         <main className="overflow-auto overflow-x-hidden container mx-auto flex-1 p-4">
           {children}
         </main>
