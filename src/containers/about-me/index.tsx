@@ -65,7 +65,7 @@ export function MyInformation() {
                         Mayur Doifode
                       </p>
                       <p className="relative z-20 text-sm sm:text-base text-neutral-500 font-medium uppercase">
-                        Oracle Financials Services
+                        Oracle
                       </p>
                       <p className="relative z-20 text-sm sm:text-base text-neutral-500 font-medium uppercase">
                         Fullstack Developer
@@ -77,12 +77,11 @@ export function MyInformation() {
                 </div>
                 <div className="space-y-6 flex-1 flex flex-col items-center justify-center">
                   <h3 className="pt-0.5 text-lg font-bold text-balance text-black md:text-4xl dark:text-white">
-                    Passionate about technology and frontend craftsmanship.
+                    Building scalable enterprise solutions with Java and modern web technologies.
                   </h3>
                   <h2 className="text-sm/[1.125rem] text-black md:text-base/[1.375rem] dark:text-neutral-400 [&_b]:md:font-semibold [&_strong]:md:font-semibold">
-                    I thrive on learning, leading, and solving complex
-                    challenges — always reflecting on how each experience
-                    contributes to personal and team growth.
+                    Specializing in microservices architecture, Spring Boot, and full-stack development.
+                    I thrive on solving complex backend challenges while crafting elegant user experiences.
                   </h2>
                 </div>
 
@@ -143,8 +142,8 @@ const KeyAchievements = () => {
           scale: 1.05,
           backgroundColor:
             currentTheme === "dark"
-              ? "rgba(167, 139, 250, 0.2)"
-              : "rgb(243 232 255)",
+              ? "rgba(34, 197, 94, 0.2)"
+              : "rgb(220 252 231)",
           boxShadow:
             "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
         }}
@@ -156,13 +155,13 @@ const KeyAchievements = () => {
             transition: { duration: 0.5 },
           }}
         >
-          <Code className="h-8 w-8 text-purple-500 dark:text-purple-400 mb-2 transition-colors duration-300" />
+          <Code className="h-8 w-8 text-green-500 dark:text-green-400 mb-2 transition-colors duration-300" />
         </motion.div>
         <h4 className="font-medium dark:text-white transition-colors duration-300">
-          Clean Code
+          Microservices
         </h4>
         <p className="text-sm text-gray-600 dark:text-gray-300 transition-colors duration-300">
-          Crafting maintainable, elegant solutions
+          Building distributed, scalable systems
         </p>
       </motion.div>
 
@@ -172,8 +171,8 @@ const KeyAchievements = () => {
           scale: 1.05,
           backgroundColor:
             currentTheme === "dark"
-              ? "rgba(96, 165, 250, 0.2)"
-              : "rgb(219 234 254)",
+              ? "rgba(239, 68, 68, 0.2)"
+              : "rgb(254 226 226)",
           boxShadow:
             "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
         }}
@@ -185,13 +184,13 @@ const KeyAchievements = () => {
             transition: { duration: 0.6, repeat: 0 },
           }}
         >
-          <Layers className="h-8 w-8 text-blue-500 dark:text-blue-400 mb-2 transition-colors duration-300" />
+          <Layers className="h-8 w-8 text-red-500 dark:text-red-400 mb-2 transition-colors duration-300" />
         </motion.div>
         <h4 className="font-medium dark:text-white transition-colors duration-300">
-          Component Architecture
+          Spring Boot & Java
         </h4>
         <p className="text-sm text-gray-600 dark:text-gray-300 transition-colors duration-300">
-          Building scalable, reusable systems
+          Enterprise-grade backend development
         </p>
       </motion.div>
 
@@ -255,44 +254,44 @@ const KeySkills = () => {
   // Array of skills with their colors for hover effects
   const skills = [
     {
-      name: "React",
-      color: "rgb(219 234 254)",
-      darkColor: "rgba(59, 130, 246, 0.2)",
-    },
-    {
-      name: "Next.js",
-      color: "rgb(224 231 255)",
-      darkColor: "rgba(99, 102, 241, 0.2)",
-    },
-    {
-      name: "TypeScript",
-      color: "rgb(219 234 254)",
-      darkColor: "rgba(59, 130, 246, 0.2)",
-    },
-    {
-      name: "Tailwind CSS",
-      color: "rgb(207 250 254)",
-      darkColor: "rgba(6, 182, 212, 0.2)",
-    },
-    {
-      name: "Redux",
-      color: "rgb(237 233 254)",
-      darkColor: "rgba(124, 58, 237, 0.2)",
-    },
-    {
-      name: "UI/UX",
+      name: "Java",
       color: "rgb(254 226 226)",
       darkColor: "rgba(239, 68, 68, 0.2)",
     },
     {
-      name: "Responsive Design",
+      name: "Spring Boot",
       color: "rgb(220 252 231)",
       darkColor: "rgba(16, 185, 129, 0.2)",
     },
     {
-      name: "Performance Optimization",
+      name: "Microservices",
+      color: "rgb(219 234 254)",
+      darkColor: "rgba(59, 130, 246, 0.2)",
+    },
+    {
+      name: "REST APIs",
       color: "rgb(254 243 199)",
       darkColor: "rgba(245, 158, 11, 0.2)",
+    },
+    {
+      name: "React & Next.js",
+      color: "rgb(219 234 254)",
+      darkColor: "rgba(59, 130, 246, 0.2)",
+    },
+    {
+      name: "TypeScript",
+      color: "rgb(224 231 255)",
+      darkColor: "rgba(99, 102, 241, 0.2)",
+    },
+    {
+      name: "Oracle SQL",
+      color: "rgb(237 233 254)",
+      darkColor: "rgba(124, 58, 237, 0.2)",
+    },
+    {
+      name: "CI/CD & DevOps",
+      color: "rgb(207 250 254)",
+      darkColor: "rgba(6, 182, 212, 0.2)",
     },
   ]
   return (

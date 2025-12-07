@@ -8,11 +8,11 @@ export const LEARNING_RESOURCES = [
     imageWrapperClass: "p-1 rounded-xl bg-black",
   },
   {
-    href: "https://www.youtube.com/@DaveGrayTeachesCode",
+    href: "https://www.youtube.com/@ByteMonk",
     imgSrc:
-      "https://yt3.googleusercontent.com/nv365KiAJyURPEBZyCh0SV3hSBnZXbvVXrzRwcNDfgUpXPn9-3_4PY0SkQrAJWnzQOxKqfUtrQ=s160-c-k-c0x00ffffff-no-rj",
-    alt: "Dave Gray YouTube Channel",
-    description: "Web Development tutorials",
+      "https://yt3.googleusercontent.com/4Zw9XifSAyf1FNmM2969egek-4QjYpCT8ELGf3m4dP5YZiq6ch_MFjywuPjJt_hyWoTsO4U5Ug=s160-c-k-c0x00ffffff-no-rj",
+    alt: "ByteMonk YouTube Channel",
+    description: "Awesome System Design videos from a fellow Oracle Dev.",
     imageWrapperClass: "rounded-full h-14 w-14",
   },
   {
